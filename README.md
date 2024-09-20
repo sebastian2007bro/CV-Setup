@@ -1,2 +1,2 @@
 # CV-Setup
-The Setup for my projecy Sebs SW CV
+The Setup for my project Sebs SW CV
