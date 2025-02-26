@@ -34,6 +34,7 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -103,7 +104,6 @@ Partial Class Form1
         Me.Button3.TabIndex = 6
         Me.Button3.Text = "Only Install"
         Me.Button3.UseVisualStyleBackColor = True
-        Me.Button3.Visible = False
         '
         'Label3
         '
@@ -135,11 +135,19 @@ Partial Class Form1
         Me.Label4.Text = "What folder to install to?"
         Me.Label4.Visible = False
         '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(162, 150)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox3.TabIndex = 11
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(409, 292)
+        Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TextBox2)
@@ -170,4 +178,5 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label4 As Label
+    Friend WithEvents TextBox3 As TextBox
 End Class
